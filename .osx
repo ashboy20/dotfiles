@@ -268,3 +268,6 @@ defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
 # fi
 
 # printf "Please log out and log back in to make all settings take effect.\n"
+
+# Set dark mode
+sudo defaults write /Library/Preferences/.GlobalPreferences.plist _HIEnableThemeSwitchHotKey -bool true
