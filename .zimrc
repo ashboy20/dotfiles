@@ -1,1 +1,2 @@
+# enable powerlevel10k
 zmodule romkatv/powerlevel10k --use degit
